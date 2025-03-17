@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className="font-sans bg-red-200 min-h-screen flex justify-center px-4 md:px-10 lg:px-20">
       <div className="bg-white max-w-screen-xl w-full flex flex-wrap flex-col shadow-lg rounded-lg">
-        <header className="flex flex-wrap justify-between items-center w-full py-5 px-4 md:px-25 border-2 border-black">
+        <header className="flex flex-wrap justify-between items-center w-full py-5 px-4 md:px-25">
           <FontAwesomeIcon
             icon={faHouse}
             size="2xl"
@@ -69,7 +69,7 @@ const Home = () => {
         </header>
 
         <main className="flex items-center lg:flex-row md:flex-row flex-col">
-          <div className="w-1/3 border-2 border-b-black items-center ml-25 mt-20">
+          <div className="w-1/3 items-center ml-25 mt-20">
             <h1
               className="text-6xl md:text-5xl sm:text-4xl font-bold text-pink-400"
               style={{ fontFamily: "'Playfair Display', serif" }}
@@ -142,7 +142,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="relative w-1/2 border-2 border-amber-400 mr-25 mt-20 ">
+          <div className="relative w-1/2 mr-25 mt-20 ">
             <div className="relative bg-orange-100 rounded-full w-[100%] h-[50%] min-w-[10rem] min-h-[10rem] max-w-[30rem] max-h-[30rem] flex items-center justify-center overflow-hidden">
               <img src={chair} alt="Chair" className="w-full h-full" />
             </div>
